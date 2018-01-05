@@ -53,7 +53,7 @@ module.exports = {
         // update the comment with the new content
         Comment.update(pk, data).then((comment) => {
             // if no comment was returned from the update, comment was not found
-            if (!comment) {
+            if (!comment.id) {
                 return res.notFound();
             }
 
