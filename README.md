@@ -3,6 +3,8 @@
 Installation
 ==========================================
 
+This application uses redis as a datastore and assumes you have redis-server running on port 6379
+
 > Run ‘npm install’ to download npm packages.
 
 > Run sails lift to start the node server on port 1337.
