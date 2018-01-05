@@ -5,10 +5,6 @@ Installation
 
 > Run ‘npm install’ to download npm packages.
 
-Should npm fail to install packages,
-> Run ‘npm update’ to download npm packages.
-
-
 > Run sails lift to start the node server on port 1337.
 
 
