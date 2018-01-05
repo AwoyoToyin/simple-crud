@@ -24,7 +24,6 @@ module.exports = {
 
             // destroy all comments belonging to the deleted post
             return Comment.destroy({ post: pk }).then((comments) => {
-                console.log('comments: ', comments);
 
                 // try deleting the post
                 return Post.destroy({ id: pk }).then((destoyed) => res.ok(destoyed));
