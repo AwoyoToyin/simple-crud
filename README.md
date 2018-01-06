@@ -7,7 +7,7 @@ This application uses redis as a datastore and assumes you have redis-server run
 
 > Run ‘npm install’ to download npm packages.
 
-> Run sails lift to start the node server on port 1337.
+> Run ‘sails lift‘ to start the node server on port 1337.
 
 
 Testing The CRUD API
